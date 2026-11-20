@@ -1,0 +1,18 @@
+@{
+    ViewData["Title"] = "ไม่มีสิทธิ์เข้าถึง";
+    ViewData["HideNav"] = true;
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="login-page">
+    <div class="card login-card text-center">
+        <div class="card-body py-5">
+            <div class="mb-3">
+                <i class="bi bi-shield-exclamation text-danger" style="font-size: 3rem;"></i>
+            </div>
+            <h4 class="fw-bold">ไม่มีสิทธิ์เข้าถึง</h4>
+            <p class="text-muted">คุณไม่มีสิทธิ์เข้าถึงหน้านี้</p>
+            <a href="/Home/Dashboard" class="btn btn-primary mt-2">กลับหน้าหลัก</a>
+        </div>
+    </div>
+</div>
