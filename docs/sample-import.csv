@@ -1,3 +1,0 @@
-drug_code,drug_name,barcode,lot_no,expiry_date,quantity,unit,unit_cost,invoice_no,supplier
-MED0001,Paracetamol 500 mg tab,8850000000011,A123,2027-06-30,1000,เม็ด,0.35,INV-DRAFT-001,ตัวอย่าง
-MED0002,Amoxicillin 500 mg cap,8850000000028,B456,2026-12-31,500,แคปซูล,1.20,INV-DRAFT-001,ตัวอย่าง
